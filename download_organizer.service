@@ -1,0 +1,6 @@
+[Unit]
+Description=download organizer will sort files into respective directories
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/download_organizer

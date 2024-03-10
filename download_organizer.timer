@@ -1,0 +1,8 @@
+[Unit]
+Description=Run Download Organizer Every 10 hours
+
+[Timer]
+OnUnitActiveSec=10h
+
+[Install]
+WantedBy=timers.target
